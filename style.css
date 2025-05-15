@@ -250,23 +250,28 @@ ul li a {
   font-size: 18px;
   padding-top: 10px;
 }
-.referance-logos {
+.logo-images {
+  margin-top: 20px;
   display: flex;
-   flex-direction: column;
-}
-/* .referance-logos-2 {
-  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  align-items: center;
+  gap: 30px;
 }
-
-
-.referance-logos img {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly
-} */
-
+.logo-column1 img,
+.logo-column2 img,
+.logo-column3 img {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  height: 100px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  width: 200px;
+  object-fit: contain;
+}
+.logo-column1 div {
+  padding-bottom: 20px;
+}
+ 
 /* footer */
 .user-content{
   text-align: center;
